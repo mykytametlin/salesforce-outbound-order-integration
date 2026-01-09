@@ -21,20 +21,14 @@ Once triggered, Salesforce sends a structured JSON payload with order and item d
 
 ## Architecture Overview
 
-Order__c (Status = Confirmed)
-↓
-Apex Trigger
-↓
-Trigger Handler
-↓
-Integration Gate
-(Custom Metadata)
-↓
-Queueable Job
-↓
-Payload Builder
-↓
-REST API Callout
+- Order__c (Status = Confirmed)
+- Apex Trigger
+- Trigger Handler
+- Integration Gate
+- Custom Metadata
+- Queueable Job
+- Payload Builder
+- REST API Callout
 
 ---
 
